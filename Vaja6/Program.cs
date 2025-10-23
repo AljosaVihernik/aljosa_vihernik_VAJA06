@@ -27,6 +27,7 @@ namespace vaja6 {
                 return id;
             }
         }
+		//prejme id
 
         public string U_ime {
             get
@@ -38,6 +39,7 @@ namespace vaja6 {
                 u_ime = value.Trim();
             }
         }
+		//prejme ime ter ga obreze
 
         public string U_geslo
         {
@@ -50,11 +52,13 @@ namespace vaja6 {
                 u_geslo = value.Trim();
             }
         }
+		//prejme ter obreze geslo 
 
         public static int StIg
         {
             get { return stIg; }
         }
+		//prejme StIg
     }
     class vaja { 
         public static void main(String[] args)
